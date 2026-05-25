@@ -1,0 +1,40 @@
+
+.input_date{
+
+  height:50px;
+  background-color: rgb(255, 255, 255);
+  color:black;
+}
+.btn{
+  height: 30px;
+  background-color: pink;
+  color:black;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 5px solid pink;
+  border-top: 5px solid black;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
