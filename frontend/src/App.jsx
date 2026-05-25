@@ -10,7 +10,7 @@ function App() {
 
   const getSpaceData = () => {
     setLoading(true);
-    fetch(`http://localhost:5000/space?date=${date}`)
+    fetch(`https://night-sky-yd22.onrender.com/space?date=${date}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
